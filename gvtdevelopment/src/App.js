@@ -9,6 +9,7 @@ function App() {
         <p>
           <b>VGT Developments ®</b>
         </p>
+        <p>aloha</p>
       </header>
     </div>
   );
