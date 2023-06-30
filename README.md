@@ -27,7 +27,5 @@ Se você quiser contribuir para nosso portfólio, ficaremos felizes em receber s
 
 ## Contato
 
-Para entrar em contato com a VGT Developments, você pode enviar um e-mail para info@vgtdev.com ou visitar nosso site em www.vgtdev.com.
-
-Esperamos que você goste de explorar nosso portfólio! Obrigado por visitar.
+Para entrar em contato com a VGT Developments, você pode enviar zap para o Lil Vinigota.
 
