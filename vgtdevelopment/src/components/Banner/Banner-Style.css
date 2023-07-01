@@ -1,0 +1,30 @@
+
+.banner-div {
+    font-family: "JetBrains Mono";
+    color: white;
+    padding: 3em 0;
+    background-image: url("./banner.png");
+    background-color: rgba(40, 44, 52, 1); 
+  }
+  
+
+p {
+    font-weight: 600;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .container {
+      animation: App-logo-spin 1s ease-in-out;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    0% {
+      transform: scale(0.75);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+  }
