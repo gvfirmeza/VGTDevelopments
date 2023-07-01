@@ -1,5 +1,6 @@
 import logo from './vgt.png';
 import './App.css';
+import Nav from './components/Nav/Nav';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <b>VGT Developments ®</b>
         </p>
       </header>
+      <Nav />
     </div>
   );
 }
