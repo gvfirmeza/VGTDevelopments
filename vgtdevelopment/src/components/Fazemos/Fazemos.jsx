@@ -4,7 +4,7 @@ import Site from "./site.png";
 import Ux from "./ux.png";
 
 const Fazemos = () => (
-        <div className="container-fazemos">
+        <div className="container-fazemos" id="fazemos">
              <h4>O QUE FAZEMOS</h4>
             <div className="listas">
             
