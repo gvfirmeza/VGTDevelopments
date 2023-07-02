@@ -1,0 +1,52 @@
+.sobre{
+    font-family: "JetBrains Mono";
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    height: 350px;
+    margin-right: 2em;
+}
+
+.paragrafo{
+    font-weight: 200;
+    font-size: 18px;
+    width: 35%;
+    text-align: left;
+}
+
+.span{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.container2{
+    background-color: #2F6080;
+    border-radius: 32px;
+    width: fit-content;
+    margin: 2em auto;
+    padding: 1em 0;
+    align-items: center;
+}
+
+.skills{
+    margin: 0;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+}
+
+.item{
+    margin-right: 2em;
+}
+
+.quebra{
+    width: 68%;
+}
