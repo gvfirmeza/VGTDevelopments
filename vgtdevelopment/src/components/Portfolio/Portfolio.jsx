@@ -11,7 +11,7 @@ function Portfolio() {
     return (
         <>
             <h4>PORTFÓLIO</h4>
-            <div className="container-portfolio">
+            <div className="container-portfolio" id="portfolio">
                 <div ref={sliderRef} className="keen-slider custom-slider">
                     <div className="keen-slider__slide number-slide1">1</div>
                     <div className="keen-slider__slide number-slide2">2</div>
