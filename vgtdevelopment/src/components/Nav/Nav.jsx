@@ -8,7 +8,7 @@ const Nav = () => (
                 <li className="barra-nav_item2"><a className="barra-nav_A" href="#">O QUE FAZEMOS</a></li>
                 <li><img className="barra-nav_foto" src={Logo}/></li>
                 <li className="barra-nav_item3"><a className="barra-nav_A" href="#">FALE CONOSCO</a></li>
-                <li className="barra-nav_item4"><a className="barra-nav_A" href="#">PORTIFÓLIO</a></li>
+                <li className="barra-nav_item4"><a className="barra-nav_A" href="#">PORTFÓLIO</a></li>
             </ul>
         </div>
 );
