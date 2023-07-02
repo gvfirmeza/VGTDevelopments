@@ -10,6 +10,7 @@ function Portfolio() {
     const [loaded, setLoaded] = useState(false)
     const [sliderRef, instanceRef] = useKeenSlider({
         initial: 0,
+        loop: true,
         slideChanged(slider) {
             setCurrentSlide(slider.track.details.rel)
         },
