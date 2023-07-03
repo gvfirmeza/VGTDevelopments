@@ -74,7 +74,7 @@ function Portfolio() {
                     )}
                 </>
             </div>
-            <hr className="quebra" />
+            
         </>
     )
 }
