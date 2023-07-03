@@ -1,0 +1,53 @@
+.container-footer{
+    font-family: "JetBrains Mono";
+    background-color: #1f2127;
+    width: 100%;
+    color: #282C34;
+    text-align: left;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
+.ancora-footer{
+    text-decoration: none;
+    
+    color: #646b81;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+}
+
+.img-footer{
+    width: 300px;
+}
+
+.container-conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.p-footer{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #646b81;
+}
+
+.container-infos{
+    margin-left: 6em;
+}
+
+.container-menu{
+    margin-left: 3em;
+}
+
+.h2-footer{
+    font-size: 22px;
+    color: #9faacd;
+}
+
+.contato-footer{
+    display: flex;
+    align-items: center;
+}
