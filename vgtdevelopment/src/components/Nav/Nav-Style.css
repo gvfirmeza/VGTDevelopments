@@ -13,23 +13,8 @@
     margin: 0;
 }
 
-.barra-nav_item1{
-    margin-top: 1.3em;
-    margin-right: 3em;
-    margin-left: 0;
-}
-
-.barra-nav_item2{
-    margin-top: 1.3em;
-    margin-right: 5em;
-}
-.barra-nav_item3{
-    margin-top: 1.3em;
-    margin-left: 5em;
-}
-.barra-nav_item4{
-    margin-top: 1.3em;
-    margin-left: 3em;
+.barra-nav_item{
+    margin: 1em 2em;
 }
 
 .barra-nav_A{
@@ -45,8 +30,6 @@
 
 .barra-nav_foto{
     width: 100px;
-    margin: 0;
-    margin-top: 0.7em;
-    margin-bottom: 0.5em;
+    margin: 0.5em 2em;
 }
 
