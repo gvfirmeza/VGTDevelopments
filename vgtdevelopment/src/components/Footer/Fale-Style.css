@@ -11,11 +11,15 @@
 
 .ancora-footer{
     text-decoration: none;
-    
+    margin-top: 0.8em;
     color: #646b81;
     display: block;
     text-align: left;
     font-size: 18px;
+}
+
+.ancora-footer:hover{
+    color: #8b91a1;
 }
 
 .img-footer{

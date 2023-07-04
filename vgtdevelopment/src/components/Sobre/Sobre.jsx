@@ -7,12 +7,12 @@ import React from "./imgs/REACT.png";
 import Python from "./imgs/PYTHON.png";
 
 const Sobre = () => (
-    <div className="sobre">
+    <div className="sobre" id="quem">
         <br />
 
         <h4>QUEM SOMOS</h4>
 
-        <div className="container1" id="quem">
+        <div className="container1">
             <img className="foto" src={Foto}/>
             <p className="paragrafo"><span className="span">Olá,</span>
             <br />
