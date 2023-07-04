@@ -3,7 +3,7 @@ import zap from "./whatsapp.png"
 import email from "./email.png"
 
 const Fale = () => (
-    <div className="container-footer">
+    <div className="container-footer" id="fale">
         <div className="container-conteudo">
         <div className="container-menu">
             <h2 className="h2-footer">Menu</h2>
