@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a4677c7.css",
+    "main.js": "/static/js/main.dbbe82c4.js",
+    "static/js/787.3c0933c9.chunk.js": "/static/js/787.3c0933c9.chunk.js",
+    "static/media/banner.png": "/static/media/banner.f19954fe6fdbdeaaa288.png",
+    "static/media/pizzarobot.png": "/static/media/pizzarobot.1ed05cd5f2c2e7ef5709.png",
+    "static/media/foto.png": "/static/media/foto.d18aefd24a186462c2c1.png",
+    "static/media/site.png": "/static/media/site.9269c2ba310fa9fd5542.png",
+    "static/media/REACT.png": "/static/media/REACT.4868b2b4abd26d83016b.png",
+    "index.html": "/index.html",
+    "main.9a4677c7.css.map": "/static/css/main.9a4677c7.css.map",
+    "main.dbbe82c4.js.map": "/static/js/main.dbbe82c4.js.map",
+    "787.3c0933c9.chunk.js.map": "/static/js/787.3c0933c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a4677c7.css",
+    "static/js/main.dbbe82c4.js"
+  ]
+}
