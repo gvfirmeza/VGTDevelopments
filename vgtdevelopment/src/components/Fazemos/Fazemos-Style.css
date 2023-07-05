@@ -26,3 +26,18 @@
     width: 50%;
     margin: auto;
 }
+
+@media (max-width : 767px) {
+    .listas{
+        display: block;
+    }
+    .lista-ux , .lista-site {
+        width: 80%;
+    }
+    .paragrafo-lista{
+        font-size: 16px;
+    }
+    .titulo-lista{
+        font-size: 20px;
+    }
+}
