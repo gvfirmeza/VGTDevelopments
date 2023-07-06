@@ -33,6 +33,7 @@
     }
     .lista-ux , .lista-site {
         width: 80%;
+        margin-bottom: 1em;
     }
     .paragrafo-lista{
         font-size: 16px;
