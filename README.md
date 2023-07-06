@@ -2,13 +2,11 @@
 
 Bem-vindo ao repositório do portfólio da VGT Developments! Este repositório contém o código-fonte do nosso portfólio, onde compartilhamos informações sobre nossa empresa, projetos e habilidades de desenvolvimento.
 
+# [Site do Projeto](https://vgt-developments.vercel.app/) 
+
 ## Sobre nós
 
 Somos a VGT Developments, uma equipe apaixonada por criar soluções digitais inovadoras. Nosso foco principal é o desenvolvimento front-end, trabalhando com tecnologias como HTML, CSS e JavaScript para construir interfaces elegantes e responsivas. Estamos sempre em busca de novos desafios e adoramos explorar as últimas tendências e ferramentas do mundo do desenvolvimento web.
-
-## Projetos
-
-Neste repositório, você encontrará uma coleção de projetos nos quais trabalhamos. Cada projeto possui seu próprio diretório contendo o código-fonte, capturas de tela e uma breve descrição. Fique à vontade para explorar, clonar ou contribuir com nossos projetos.
 
 ## Como executar o projeto
 
