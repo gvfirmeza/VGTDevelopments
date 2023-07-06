@@ -2,7 +2,9 @@
 
 Bem-vindo ao repositório do portfólio da VGT Developments! Este repositório contém o código-fonte do nosso portfólio, onde compartilhamos informações sobre nossa empresa, projetos e habilidades de desenvolvimento.
 
-# [Site do Projeto](https://vgt-developments.vercel.app/) 
+# Site do Projeto
+
+[Clique aqui](https://vgt-developments.vercel.app/) para ver o site do projeto no ar.
 
 ## Sobre nós
 
