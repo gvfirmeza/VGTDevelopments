@@ -20,6 +20,10 @@
     text-align: left;
 }
 
+.sobre-texto{
+    font-weight: 400;
+}
+
 .span{
     font-size: 26px;
     font-weight: 600;
