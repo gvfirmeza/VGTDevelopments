@@ -17,7 +17,6 @@ const Sobre = () => (
       <p className="paragrafo">
         <span className="span">Olá,</span>
         <br />
-        <br />
         <p className="sobre-texto">Somos um grupo de três estudantes dedicados e comprometidos com a
         tecnologia full stack, prontos para contribuir para o sucesso do seu
         projeto.</p>
