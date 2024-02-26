@@ -19,7 +19,7 @@ const Fale = () => (
             </div>
             <div className="contato-footer">
                 <img src={email} width="35px"/>
-                <p className="p-footer">&nbsp;vgtdevelopments@gmail.com</p>
+                <p className="p-footer">&nbsp;vgtdevs@gmail.com</p>
             </div>
         </div>
         </div>
