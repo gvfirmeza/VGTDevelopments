@@ -27,5 +27,5 @@ Se você quiser contribuir para nosso portfólio, ficaremos felizes em receber s
 
 ## Contato
 
-Para entrar em contato com a VGT Developments, você pode enviar um e-mail para vgtdevs@gmail.com.
+Para entrar em contato com a VGT Developments, você pode enviar um e-mail para vgtdevelopments@gmail.com.
 
