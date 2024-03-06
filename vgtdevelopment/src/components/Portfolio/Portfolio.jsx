@@ -6,6 +6,7 @@ import "./Portfolio-Style.css"
 import pizzarobot from "./pizzarobot.png"
 import gbBarber from "./gbBarber.png"
 import taskManager from "./taskManager.png"
+import englishQuiz from "./englishtraining.png"
 
 function Portfolio() {
     const [currentSlide, setCurrentSlide] = useState(0)
@@ -28,10 +29,10 @@ function Portfolio() {
                 <>
                     <div className="navigation-wrapper">
                         <div ref={sliderRef} className="keen-slider">
-                            <div className="keen-slider__slide number-slide1"><a href="https://gustavoraia.github.io/TaskManager/" target="blank_"><img src={taskManager} className="slider-img"/></a></div>
-                            <div className="keen-slider__slide number-slide2"><a href="https://pro-barbearia.vercel.app/" target="blank_"><img src={gbBarber} className="slider-img"/></a></div>
-                            <div className="keen-slider__slide number-slide3"><a href="https://pizza-robot.vercel.app/" target="blank_"><img src={pizzarobot} className="slider-img"/></a></div>
-                            <div className="keen-slider__slide number-slide4">4</div>
+                            <div className="keen-slider__slide number-slide1"><a href="https://gustavoraia.github.io/TaskManager/" target="blank_"><img src={taskManager} alt="slide1" className="slider-img"/></a></div>
+                            <div className="keen-slider__slide number-slide2"><a href="https://pro-barbearia.vercel.app/" target="blank_"><img src={gbBarber} alt="slide2" className="slider-img"/></a></div>
+                            <div className="keen-slider__slide number-slide3"><a href="https://pizza-robot.vercel.app/" target="blank_"><img src={pizzarobot} alt="slide3" className="slider-img"/></a></div>
+                            <div className="keen-slider__slide number-slide4"><a href="https://gvfirmeza.github.io/EnglishVocabularyQuiz/" target="blank_"><img src={englishQuiz} alt="slide4" className="slider-img"/></a></div>
                             <div className="keen-slider__slide number-slide5">5</div>
                             <div className="keen-slider__slide number-slide6"><iframe className="slider-img" src="https://www.youtube.com/embed/v1mxMSHRRKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                         </div>
