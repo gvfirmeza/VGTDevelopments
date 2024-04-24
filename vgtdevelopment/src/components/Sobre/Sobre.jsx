@@ -5,6 +5,11 @@ import Html from "./imgs/HTML.png";
 import Js from "./imgs/JS.png";
 import React from "./imgs/REACT.png";
 import Python from "./imgs/PYTHON.png";
+import Bootstrap from "./imgs/bootstrap.png";
+import Mui from "./imgs/mui.png";
+import Java from "./imgs/java.png";
+import Go from "./imgs/golang.png";
+import Spring from "./imgs/Speing.png";
 
 const Sobre = () => (
   <div className="sobre" id="quem">
@@ -46,6 +51,23 @@ const Sobre = () => (
         </li>
         <li>
           <img className="item" src={Python} />
+        </li>
+      </ul>
+      <ul className="lista">
+        <li>
+          <img className="item" src={Bootstrap} />
+        </li>
+        <li>
+          <img className="item" src={Mui} />
+        </li>
+        <li>
+          <img className="item" src={Java} />
+        </li>
+        <li>
+          <img className="item" src={Go} />
+        </li>
+        <li>
+          <img className="item" src={Spring} />
         </li>
       </ul>
     </div>

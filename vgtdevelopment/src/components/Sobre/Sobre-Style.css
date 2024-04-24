@@ -45,6 +45,8 @@
 .lista{
     display: flex;
     list-style: none;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .item{
