@@ -3,10 +3,28 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import "./Portfolio-Style.css"
 
-import pizzarobot from "./pizzarobot.png"
-import gbBarber from "./gbBarber.png"
-import taskManager from "./taskManager.png"
-import englishQuiz from "./englishtraining.png"
+import pizzarobot from "./imgs/pizzarobot.png"
+import gbBarber from "./imgs/gbBarber.png"
+import taskManager from "./imgs/taskManager.png"
+import englishQuiz from "./imgs/englishtraining.png"
+
+function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+window.addEventListener("scroll", reveal);
 
 function Portfolio() {
     const [currentSlide, setCurrentSlide] = useState(0)
@@ -24,8 +42,8 @@ function Portfolio() {
 
     return (
         <>
-            <h4>PORTFÓLIO</h4>
-            <div className="container-portfolio" id="portfolio">
+            <h4 className="reveal fade-bottom">PORTFÓLIO</h4>
+            <div className="container-portfolio reveal fade-bottom" id="portfolio">
                 <>
                     <div className="navigation-wrapper">
                         <div ref={sliderRef} className="keen-slider">

@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70%;
+    margin: auto;
     margin-bottom: 3em;
 }
 
@@ -26,6 +28,32 @@
     width: 50%;
     margin: auto;
 }
+
+.fade-out {
+    animation-name: fade-out-animation;
+    animation-duration: 0.5s; /* Tempo da animação de fade out */
+}
+
+@keyframes fade-out-animation {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+} 
 
 @media (max-width : 767px) {
     .listas{

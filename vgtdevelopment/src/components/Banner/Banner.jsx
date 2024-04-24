@@ -6,7 +6,7 @@ const Banner = () => (
             <div className="container">
             <h1>VGT Developments ®</h1>
             <p>Equipe de Desenvolvimento Full Stack</p>
-            <img src={Pc} />
+            <img src={Pc} alt="pc-icon" />
             </div>
         </div>
 );

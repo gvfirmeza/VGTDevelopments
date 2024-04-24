@@ -30,12 +30,13 @@
 }
 
 .container2{
-    background-color: #2F6080;
+    background-color: #1e1e1e;
     border-radius: 32px;
     width: fit-content;
     margin: 2em auto;
     padding: 1em 0;
     align-items: center;
+    user-select: none;
 }
 
 .skills{
@@ -56,6 +57,29 @@
 .quebra{
     width: 68%;
 }
+
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+  
+.reveal.active {
+    opacity: 1;
+}
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+
+@keyframes fade-bottom {
+0% {
+    transform: translateY(50px);
+    opacity: 0;
+}
+100% {
+    transform: translateY(0);
+    opacity: 1;
+}
+} 
 
 @media (max-width: 1023px) {
     .container1{
