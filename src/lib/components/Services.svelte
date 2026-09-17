@@ -9,7 +9,7 @@
 		},
 		{
 			title: 'Plataformas web',
-			body: 'Aplicações à medida — áreas de cliente, painéis de gestão, integrações. Construídas para o uso real do dia-a-dia.',
+			body: 'Aplicações à medida: áreas de cliente, painéis de gestão, integrações. Construídas para o uso real do dia-a-dia.',
 			tags: ['Full stack', 'APIs', 'Base de dados']
 		},
 		{
@@ -23,9 +23,7 @@
 <section id="servicos" class="bg-surface px-6 py-32">
 	<div class="mx-auto max-w-7xl">
 		<Reveal>
-			<p class="mb-6 font-mono text-xs tracking-[0.22em] text-muted uppercase">
-				02 — O que fazemos
-			</p>
+			<p class="mb-6 font-mono text-xs tracking-[0.22em] text-muted uppercase">02 O que fazemos</p>
 		</Reveal>
 
 		<div class="mt-16 grid gap-8 md:grid-cols-3">

@@ -6,7 +6,7 @@
 	<div class="mx-auto grid max-w-7xl gap-16 md:grid-cols-2">
 		<Reveal>
 			<div>
-				<p class="mb-6 font-mono text-xs tracking-[0.22em] text-muted uppercase">05 — Contacto</p>
+				<p class="mb-6 font-mono text-xs tracking-[0.22em] text-muted uppercase">05 Contacto</p>
 				<h2
 					class="mb-6 font-[family-name:var(--font-display)] text-4xl leading-[1.05] font-medium tracking-[-0.04em] md:text-6xl"
 				>

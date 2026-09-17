@@ -15,7 +15,7 @@
 	--font-mono: 'Geist Mono', ui-monospace, monospace;
 }
 
-/* cursor customizado — esconde o nativo */
+/* cursor customizado, esconde o nativo */
 @media (hover: hover) {
 	* {
 		cursor: none;

@@ -38,7 +38,7 @@
 	<div class="relative mx-auto max-w-7xl">
 		<Reveal>
 			<p class="mb-6 font-mono text-xs tracking-[0.22em] text-accent uppercase">
-				03 — Como trabalhamos
+				03 Como trabalhamos
 			</p>
 			<h2
 				class="mb-20 max-w-3xl font-[family-name:var(--font-display)] text-4xl leading-[1.05] font-medium tracking-[-0.04em] md:text-6xl"

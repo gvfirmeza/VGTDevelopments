@@ -10,7 +10,7 @@
 		{
 			icon: '▣',
 			title: 'Plataformas',
-			body: 'Aplicações web à medida — áreas de cliente e dashboards.'
+			body: 'Aplicações web à medida: áreas de cliente e dashboards.'
 		},
 		{
 			icon: '◇',

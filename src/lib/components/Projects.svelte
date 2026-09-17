@@ -22,7 +22,7 @@
 <section id="projetos" class="px-6 py-32">
 	<div class="mx-auto max-w-7xl">
 		<Reveal>
-			<p class="mb-6 font-mono text-xs tracking-[0.22em] text-muted uppercase">01 — Projetos</p>
+			<p class="mb-6 font-mono text-xs tracking-[0.22em] text-muted uppercase">01 Projetos</p>
 			<h2
 				class="mb-20 max-w-3xl font-[family-name:var(--font-display)] text-4xl leading-[1.05] font-medium tracking-[-0.04em] md:text-6xl"
 			>

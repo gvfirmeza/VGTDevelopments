@@ -42,7 +42,7 @@
 
 			<Reveal>
 				<p class="mt-8 max-w-lg text-lg leading-relaxed text-muted">
-					A VGT concebe websites e plataformas web para empresas portuguesas — do primeiro esboço à
+					A VGT concebe websites e plataformas web para empresas portuguesas, do primeiro esboço à
 					entrega em produção. Sediados no Porto, a trabalhar remotamente com todo o país.
 				</p>
 			</Reveal>

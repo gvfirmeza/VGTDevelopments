@@ -3,10 +3,38 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>VGT Developments · Estúdio digital no Porto</title>
 		<meta
 			name="description"
-			content="VGT Developments — estúdio digital em Portugal. Websites e plataformas web para empresas que valorizam execução."
+			content="Estúdio digital no Porto a trabalhar remotamente. Concebemos websites e plataformas web para empresas que valorizam execução."
 		/>
+		<meta name="theme-color" content="#f3f1ec" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="apple-touch-icon" href="/favicon.png" />
+		<link rel="canonical" href="https://vgt-developments.vercel.app/" />
+
+		<!-- Open Graph (Facebook, LinkedIn, WhatsApp, Discord) -->
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="pt_PT" />
+		<meta property="og:site_name" content="VGT Developments" />
+		<meta property="og:title" content="VGT Developments · Estúdio digital no Porto" />
+		<meta
+			property="og:description"
+			content="Websites e plataformas web para empresas que valorizam execução. Sediados no Porto, a trabalhar remotamente."
+		/>
+		<meta property="og:image" content="/og-image.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:url" content="https://vgt-developments.vercel.app" />
+
+		<!-- Twitter / X -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="VGT Developments · Estúdio digital no Porto" />
+		<meta
+			name="twitter:description"
+			content="Websites e plataformas web para empresas que valorizam execução."
+		/>
+		<meta name="twitter:image" content="/og-image.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -14,6 +42,32 @@
 			rel="stylesheet"
 		/>
 		%sveltekit.head%
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@graph": [
+					{
+						"@type": "WebSite",
+						"name": "VGT Developments",
+						"url": "https://vgt-developments.vercel.app/",
+						"inLanguage": "pt-PT"
+					},
+					{
+						"@type": "Organization",
+						"name": "VGT Developments",
+						"url": "https://vgt-developments.vercel.app/",
+						"description": "Estúdio digital no Porto. Websites e plataformas web para empresas que valorizam execução.",
+						"email": "geral@vgt.pt",
+						"logo": "https://vgt-developments.vercel.app/logo.png",
+						"address": {
+							"@type": "PostalAddress",
+							"addressLocality": "Porto",
+							"addressCountry": "PT"
+						}
+					}
+				]
+			}
+		</script>
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>

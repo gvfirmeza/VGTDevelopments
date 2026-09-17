@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import Logo from './Logo.svelte';
 
 	let scrolled = $state(false);
 	onMount(() => {
@@ -24,10 +25,7 @@
 		: ''}"
 >
 	<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-		<a href="/" class="flex items-center gap-2 font-medium tracking-tight">
-			<span class="h-2.5 w-2.5 rounded-full bg-accent"></span>
-			VGT <span class="font-normal text-muted">Developments</span>
-		</a>
+		<Logo size={18} />
 		<nav class="hidden gap-9 text-sm md:flex">
 			{#each links as l (l.href)}
 				<a href={l.href} class="group relative transition-colors hover:text-accent">
