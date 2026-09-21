@@ -4,6 +4,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import Cursor from '$lib/components/Cursor.svelte';
 	import ScrollProgress from '$lib/components/ScrollProgress.svelte';
+	import WhatsAppButton from '$lib/components/WhatsAppButton.svelte';
 
 	let { children } = $props();
 </script>
@@ -14,4 +15,5 @@
 	<Nav />
 	{@render children()}
 	<Footer />
+	<WhatsAppButton />
 </div>
