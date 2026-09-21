@@ -1,5 +1,10 @@
 <script lang="ts">
+	import { enhance } from '$app/forms';
+	import { page } from '$app/state';
 	import Reveal from './Reveal.svelte';
+
+	let sending = $state(false);
+	const form = $derived(page.form);
 </script>
 
 <section id="contacto" class="border-t border-line px-6 py-32">
@@ -30,23 +35,81 @@
 		</Reveal>
 
 		<Reveal>
-			<form class="space-y-6" onsubmit={(e) => e.preventDefault()}>
-				<input type="text" name="nome" placeholder="Nome" class="field" />
-				<input type="email" name="email" placeholder="Email" class="field" />
-				<input type="text" name="empresa" placeholder="Empresa" class="field" />
-				<textarea
-					name="mensagem"
-					placeholder="Conte-nos sobre o projeto"
-					rows="4"
-					class="field resize-none"></textarea>
-				<button
-					type="submit"
-					class="group flex items-center gap-2 rounded-full bg-ink px-8 py-4 text-sm font-medium text-paper transition-colors hover:bg-accent"
+			{#if form?.success}
+				<div class="space-y-3 border-t border-accent pt-6" role="status">
+					<p class="font-[family-name:var(--font-display)] text-2xl font-medium">
+						Mensagem enviada.
+					</p>
+					<p class="text-muted">Obrigado! Respondemos em 24 horas.</p>
+				</div>
+			{:else}
+				<form
+					method="POST"
+					action="?/contacto"
+					class="space-y-6"
+					use:enhance={() => {
+						sending = true;
+						return async ({ update }) => {
+							await update({ reset: false });
+							sending = false;
+						};
+					}}
 				>
-					Enviar mensagem
-					<span class="transition-transform group-hover:translate-x-1">→</span>
-				</button>
-			</form>
+					<input
+						type="text"
+						name="nome"
+						placeholder="Nome"
+						autocomplete="name"
+						required
+						maxlength="100"
+						value={form?.values?.nome ?? ''}
+						class="field"
+					/>
+					<input
+						type="email"
+						name="email"
+						placeholder="Email"
+						autocomplete="email"
+						required
+						maxlength="254"
+						value={form?.values?.email ?? ''}
+						class="field"
+					/>
+					<input
+						type="text"
+						name="empresa"
+						placeholder="Empresa"
+						autocomplete="organization"
+						maxlength="100"
+						value={form?.values?.empresa ?? ''}
+						class="field"
+					/>
+					<textarea
+						name="mensagem"
+						placeholder="Conte-nos sobre o projeto"
+						rows="4"
+						required
+						minlength="10"
+						maxlength="5000"
+						class="field resize-none">{form?.values?.mensagem ?? ''}</textarea
+					>
+					<!-- honeypot: escondido de humanos, bots preenchem -->
+					<div class="absolute -left-[9999px]" aria-hidden="true">
+						<input type="text" name="website" tabindex="-1" autocomplete="off" />
+					</div>
+					{#if form?.error}
+						<p class="text-sm text-accent" role="alert">{form.error}</p>
+					{/if}
+					<button
+						type="submit"
+						disabled={sending}
+						class="group flex items-center gap-2 rounded-full bg-ink px-8 py-4 text-sm font-medium text-paper transition-colors hover:bg-accent disabled:opacity-60"
+					>
+						{sending ? 'A enviar…' : 'Enviar mensagem'}
+						<span class="transition-transform group-hover:translate-x-1">→</span>
+					</button>
+				</form>
+			{/if}
 		</Reveal>
 	</div>
 </section>
