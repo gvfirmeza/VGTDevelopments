@@ -68,28 +68,28 @@
 			<Reveal>
 				<div class="mt-24 grid grid-cols-2 gap-8 border-t border-line pt-8 md:grid-cols-4">
 					<div>
+						<p class="mb-2 font-mono text-[10px] tracking-widest text-muted uppercase">
+							Onde estamos
+						</p>
 						<p class="text-3xl font-medium tracking-tight">Porto</p>
-						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">
-							Base de operações
-						</p>
 					</div>
 					<div>
+						<p class="mb-2 font-mono text-[10px] tracking-widest text-muted uppercase">
+							Onde trabalhamos
+						</p>
 						<p class="text-3xl font-medium tracking-tight">Remoto</p>
-						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">
-							Como trabalhamos
-						</p>
 					</div>
 					<div>
+						<p class="mb-2 font-mono text-[10px] tracking-widest text-muted uppercase">
+							Resposta a pedidos
+						</p>
 						<p class="text-3xl font-medium tracking-tight">24h</p>
-						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">
-							Tempo de resposta
-						</p>
 					</div>
 					<div>
-						<p class="text-3xl font-medium tracking-tight">Full</p>
-						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">
-							Stack frontend a backend
+						<p class="mb-2 font-mono text-[10px] tracking-widest text-muted uppercase">
+							Design e desenvolvimento
 						</p>
+						<p class="text-3xl font-medium tracking-tight">Full-stack</p>
 					</div>
 				</div>
 			</Reveal>
