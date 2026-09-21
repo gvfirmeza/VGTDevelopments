@@ -68,22 +68,28 @@
 			<Reveal>
 				<div class="mt-24 grid grid-cols-2 gap-8 border-t border-line pt-8 md:grid-cols-4">
 					<div>
-						<p class="text-3xl font-medium tracking-tight">100%</p>
+						<p class="text-3xl font-medium tracking-tight">Porto</p>
 						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">
-							Projetos no ar
+							Base de operações
+						</p>
+					</div>
+					<div>
+						<p class="text-3xl font-medium tracking-tight">Remoto</p>
+						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">
+							Como trabalhamos
 						</p>
 					</div>
 					<div>
 						<p class="text-3xl font-medium tracking-tight">24h</p>
-						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">Resposta</p>
+						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">
+							Tempo de resposta
+						</p>
 					</div>
 					<div>
-						<p class="text-3xl font-medium tracking-tight">Porto</p>
-						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">Equipa local</p>
-					</div>
-					<div>
-						<p class="text-3xl font-medium tracking-tight">Design→Deploy</p>
-						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">Full-stack</p>
+						<p class="text-3xl font-medium tracking-tight">Full</p>
+						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">
+							Stack frontend a backend
+						</p>
 					</div>
 				</div>
 			</Reveal>

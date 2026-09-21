@@ -8,7 +8,7 @@
 	>
 		<Logo size={16} />
 		<p class="text-sm text-muted">
-			© {new Date().getFullYear()} · Feito no Porto · A trabalhar remotamente
+			© {new Date().getFullYear()} VGT Developments · Porto, Portugal
 		</p>
 	</div>
 </footer>
