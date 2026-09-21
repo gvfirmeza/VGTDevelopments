@@ -79,11 +79,11 @@
 					</div>
 					<div>
 						<p class="text-3xl font-medium tracking-tight">Porto</p>
-						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">Sede</p>
+						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">Equipa local</p>
 					</div>
 					<div>
-						<p class="text-3xl font-medium tracking-tight">Full</p>
-						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">Stack</p>
+						<p class="text-3xl font-medium tracking-tight">Design→Deploy</p>
+						<p class="mt-2 font-mono text-[10px] tracking-widest text-muted uppercase">Full-stack</p>
 					</div>
 				</div>
 			</Reveal>

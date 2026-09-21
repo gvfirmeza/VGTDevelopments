@@ -3,18 +3,23 @@
 
 	// Substitui pelos teus projetos reais
 	const projects = [
-		{ name: 'Cliente A', sector: 'Retalho', result: 'Loja online com +40% de conversão', url: '#' },
 		{
-			name: 'Cliente B',
-			sector: 'Serviços',
-			result: 'Website institucional e área de cliente',
-			url: '#'
+			name: 'Mariana Barbetta',
+			sector: 'Moda / E-commerce',
+			result: 'Loja online de moda premium',
+			url: 'https://marianabarbetta.com/'
 		},
 		{
-			name: 'Cliente C',
-			sector: 'Indústria',
-			result: 'Plataforma interna de gestão',
-			url: '#'
+			name: 'Next Step',
+			sector: 'Coaching & Educação',
+			result: 'Plataforma de acompanhamento de alunos',
+			url: 'https://next-step-front.vercel.app/'
+		},
+		{
+			name: 'BetCopilot',
+			sector: 'SaaS / Betting Tech',
+			result: 'Copiloto de apostas com IA',
+			url: 'https://betcopilot.vercel.app/'
 		}
 	];
 </script>
@@ -35,6 +40,8 @@
 				<Reveal>
 					<a
 						href={p.url}
+						target={p.url.startsWith('http') ? '_blank' : undefined}
+						rel={p.url.startsWith('http') ? 'noopener noreferrer' : undefined}
 						class="group grid gap-6 bg-paper px-6 py-10 transition-colors duration-500 hover:bg-ink hover:text-paper md:grid-cols-12 md:px-8"
 					>
 						<div class="font-mono text-xs text-muted group-hover:text-accent md:col-span-1">
