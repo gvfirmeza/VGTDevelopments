@@ -17,7 +17,10 @@
 				</p>
 				<div class="mt-10 space-y-3 text-sm">
 					<p class="flex items-center gap-3">
-						<span class="h-1.5 w-1.5 rounded-full bg-accent"></span> geral@vgt.pt
+						<span class="h-1.5 w-1.5 rounded-full bg-accent"></span>
+						<a href="mailto:vgtdevelopments@gmail.com" class="hover:text-accent"
+							>vgtdevelopments@gmail.com</a
+						>
 					</p>
 					<p class="flex items-center gap-3">
 						<span class="h-1.5 w-1.5 rounded-full bg-accent"></span> Portugal · Remoto
