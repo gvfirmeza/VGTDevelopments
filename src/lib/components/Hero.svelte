@@ -87,7 +87,7 @@
 					</div>
 					<div>
 						<p class="mb-2 font-mono text-[10px] tracking-widest text-muted uppercase">
-							Design e desenvolvimento
+							Desenvolvimento
 						</p>
 						<p class="text-3xl font-medium tracking-tight">Full-stack</p>
 					</div>
