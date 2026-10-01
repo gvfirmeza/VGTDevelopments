@@ -4,6 +4,8 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+	// o gsap publica ESM sem "type": "module"; o Vite tem de o transformar no SSR
+	ssr: { noExternal: ['gsap'] },
 	plugins: [
 		tailwindcss(),
 		sveltekit({

@@ -77,6 +77,32 @@
 			}
 		</script>
 
+		<!-- marca JS ativo e se a intro já foi vista nesta sessão (evita flash) -->
+		<script>
+			(function () {
+				var d = document.documentElement;
+				d.classList.add('js');
+				try {
+					if (sessionStorage.getItem('vgt-intro')) d.classList.add('intro-seen');
+				} catch (e) {
+					d.classList.add('intro-seen');
+				}
+			})();
+		</script>
+
+		<!-- marca JS ativo e se a intro já foi vista nesta sessão (evita flash) -->
+		<script>
+			(function () {
+				var d = document.documentElement;
+				d.classList.add('js');
+				try {
+					if (sessionStorage.getItem('vgt-intro')) d.classList.add('intro-seen');
+				} catch (e) {
+					d.classList.add('intro-seen');
+				}
+			})();
+		</script>
+
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
